@@ -1048,3 +1048,7 @@ function deleteAllCheckedProducts() {
     localStorage.setItem('products', JSON.stringify(products));
     location.reload();
 }
+
+function alertMsg(msg) {
+    alert('Bonjour  ' + msg);
+};
